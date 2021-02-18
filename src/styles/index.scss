@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+// globals
+html {
+  font-family: $font-family;
+}
+
+body {
+  margin: 0;
+  background-color: $body-bg;
+}
+
+// custom element theme 自定义element主题
+$--color-primary: $primary-color;
+
+// import element default theme
+@import '~element-ui/lib/theme-chalk/index.css';
+
